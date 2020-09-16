@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-16T11:45:34</date>
+  <millis>1600236934629</millis>
+  <sequence>0</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>SEVERE</level>
+  <class>com.prm.prm_global_framework.test.services.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe message</message>
+</record>
+<record>
+  <date>2020-09-16T11:45:34</date>
+  <millis>1600236934763</millis>
+  <sequence>1</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>WARNING</level>
+  <class>com.prm.prm_global_framework.test.services.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning message</message>
+</record>
+<record>
+  <date>2020-09-16T11:45:34</date>
+  <millis>1600236934765</millis>
+  <sequence>2</sequence>
+  <logger>com.javacodegeeks.snippets.core</logger>
+  <level>INFO</level>
+  <class>com.prm.prm_global_framework.test.services.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info message</message>
+</record>
+</log>

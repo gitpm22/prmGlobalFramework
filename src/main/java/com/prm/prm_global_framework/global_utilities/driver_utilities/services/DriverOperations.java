@@ -1,14 +1,42 @@
 package com.prm.prm_global_framework.global_utilities.driver_utilities.services;
 
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.prm.prm_global_framework.global_utilities.propertiesfile_utilities.services.PropertiesFileOperations;
+
 public class DriverOperations {
 
-	public void loadChromeDriver(String chromeDriverKey, String chromeDriverValue) {
+	public void loadChromeDriver(String chromeDriverKey, String chromeDriverValue, List<String> keyValue) {
 
 
 		try {
 			if(chromeDriverKey.equals("browser.isChromeDriverEnable") && chromeDriverValue.equals("Yes")) {
 
 				System.out.println("Chrome Driver loaded successfully");
+				
+				int chromeDriverLocationIndex = 2;
+				
+				PropertiesFileOperations propertiesFile = new PropertiesFileOperations();
+				
+				String chromeDriverLocation = propertiesFile.retrieveSingleKeyValueUsingIndex(keyValue, chromeDriverLocationIndex);
+				
+				System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
+				
+				WebDriver chromeDriver = new ChromeDriver();
+				
+				chromeDriver.get("https://www.javatpoint.com");
+				
+				
+				
+				
+				
+			}
+			else {
+				
+				System.out.println("Chrome Driver is not enabled");
 			}
 
 		}

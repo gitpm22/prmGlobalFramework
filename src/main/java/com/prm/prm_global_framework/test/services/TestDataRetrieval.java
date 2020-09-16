@@ -54,7 +54,7 @@ public class TestDataRetrieval {
 			
 			DriverOperations chromeDriver = new DriverOperations();
 			
-			chromeDriver.loadChromeDriver(chromeKey, chromeValue);
+			chromeDriver.loadChromeDriver(chromeKey, chromeValue, keyValue);
 			chromeDriver.loadGekoDriver(gekoKey, gekoValue);
 			chromeDriver.loadIeDriver(ieKey, ieValue);
 
