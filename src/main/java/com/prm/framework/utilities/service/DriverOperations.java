@@ -1,11 +1,9 @@
-package com.prm.framework.utilities.service.driver;
+package com.prm.framework.utilities.service;
 
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import com.prm.framework.utilities.service.properties.PropertiesFileOperations;
 
 public class DriverOperations {
 

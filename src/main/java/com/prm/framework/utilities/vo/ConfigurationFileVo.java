@@ -1,4 +1,4 @@
-package com.prm.framework.utilities.vo.properties;
+package com.prm.framework.utilities.vo;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.prm.framework.utilities.vo.properties;
+package com.prm.framework.utilities.vo;
 
 import java.util.ArrayList;
 import java.util.List;

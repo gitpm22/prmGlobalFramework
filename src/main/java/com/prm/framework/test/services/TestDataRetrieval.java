@@ -3,8 +3,8 @@ package com.prm.framework.test.services;
 import java.io.IOException;
 import java.util.List;
 
-import com.prm.framework.utilities.service.driver.DriverOperations;
-import com.prm.framework.utilities.service.properties.PropertiesFileOperations;
+import com.prm.framework.utilities.service.DriverOperations;
+import com.prm.framework.utilities.service.PropertiesFileOperations;
 
 public class TestDataRetrieval {
 

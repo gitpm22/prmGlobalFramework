@@ -1,4 +1,4 @@
-package com.prm.framework.utilities.dao.impl.driver;
+package com.prm.framework.utilities.dao.impl;
 
 public class retrieveDriverDataFromPropertiesFile {
 

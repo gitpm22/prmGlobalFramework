@@ -1,9 +1,9 @@
-package com.prm.framework.utilities.service.properties;
+package com.prm.framework.utilities.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.prm.framework.utilities.dao.impl.properties.retrieveDataFromPropertiesFile;
+import com.prm.framework.utilities.dao.impl.retrieveDataFromPropertiesFile;
 
 /* This class calls the methods for reading the framework config file
  * @author: Preeti M

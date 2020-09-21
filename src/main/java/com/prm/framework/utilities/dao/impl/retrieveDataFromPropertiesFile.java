@@ -1,11 +1,11 @@
-package com.prm.framework.utilities.dao.impl.properties;
+package com.prm.framework.utilities.dao.impl;
 
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.prm.framework.utilities.dao.PropertiesFileDao;
-import com.prm.framework.utilities.vo.properties.AccessKeyValuesFromPropertiesFile;
+import com.prm.framework.utilities.vo.AccessKeyValuesFromPropertiesFile;
 
 
 public class retrieveDataFromPropertiesFile implements PropertiesFileDao{
